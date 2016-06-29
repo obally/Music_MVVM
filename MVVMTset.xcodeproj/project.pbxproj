@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0DBA3D91D23B67C00593AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA3D81D23B67C00593AE3 /* main.m */; };
+		C0DBA3DC1D23B67C00593AE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA3DB1D23B67C00593AE3 /* AppDelegate.m */; };
+		C0DBA3DF1D23B67C00593AE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA3DE1D23B67C00593AE3 /* ViewController.m */; };
+		C0DBA3E21D23B67C00593AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA3E01D23B67C00593AE3 /* Main.storyboard */; };
+		C0DBA3E41D23B67C00593AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA3E31D23B67C00593AE3 /* Assets.xcassets */; };
+		C0DBA3E71D23B67C00593AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA3E51D23B67C00593AE3 /* LaunchScreen.storyboard */; };
+		C0DBA3F21D23B67C00593AE3 /* MVVMTsetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA3F11D23B67C00593AE3 /* MVVMTsetTests.m */; };
+		C0DBA3FD1D23B67C00593AE3 /* MVVMTsetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA3FC1D23B67C00593AE3 /* MVVMTsetUITests.m */; };
+		C0DBA4121D23BB8600593AE3 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA4111D23BB8600593AE3 /* UIViewExt.m */; };
+		C0DBA41B1D23C03F00593AE3 /* OBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA4191D23C03F00593AE3 /* OBHomeViewController.m */; };
+		C0DBA4271D23C08700593AE3 /* 89382494.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA41C1D23C08700593AE3 /* 89382494.jpg */; };
+		C0DBA4281D23C08700593AE3 /* 侧田-命硬.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA41D1D23C08700593AE3 /* 侧田-命硬.mp3 */; };
+		C0DBA4291D23C08700593AE3 /* 陈奕迅-十年.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA41E1D23C08700593AE3 /* 陈奕迅-十年.mp3 */; };
+		C0DBA42A1D23C08700593AE3 /* 邓丽君-我只在乎你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA41F1D23C08700593AE3 /* 邓丽君-我只在乎你.mp3 */; };
+		C0DBA42B1D23C08700593AE3 /* 十年.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA4201D23C08700593AE3 /* 十年.lrc */; };
+		C0DBA42C1D23C08700593AE3 /* 谭咏麟-讲不出再见.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA4211D23C08700593AE3 /* 谭咏麟-讲不出再见.mp3 */; };
+		C0DBA42D1D23C08700593AE3 /* 为情所伤.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA4221D23C08700593AE3 /* 为情所伤.lrc */; };
+		C0DBA42E1D23C08700593AE3 /* 庄心妍-为情所伤.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA4231D23C08700593AE3 /* 庄心妍-为情所伤.mp3 */; };
+		C0DBA42F1D23C08700593AE3 /* Sara（泰语）-Even If Knew That Must Meet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA4241D23C08700593AE3 /* Sara（泰语）-Even If Knew That Must Meet.mp3 */; };
+		C0DBA4301D23C08700593AE3 /* song_400.png in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA4251D23C08700593AE3 /* song_400.png */; };
+		C0DBA4311D23C08700593AE3 /* songsInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA4261D23C08700593AE3 /* songsInfo.plist */; };
+		DA6E03DFA724EC001223C082 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA480E28D85F1BBD963AD012 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0DBA3EE1D23B67C00593AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0DBA3CC1D23B67C00593AE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0DBA3D31D23B67C00593AE3;
+			remoteInfo = MVVMTset;
+		};
+		C0DBA3F91D23B67C00593AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0DBA3CC1D23B67C00593AE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0DBA3D31D23B67C00593AE3;
+			remoteInfo = MVVMTset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58CB678B769CDD9AA5A774A6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6B2B91535B82E8A4A29BE911 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C0DBA3D41D23B67C00593AE3 /* MVVMTset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DBA3D81D23B67C00593AE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0DBA3DA1D23B67C00593AE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0DBA3DB1D23B67C00593AE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0DBA3DD1D23B67C00593AE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0DBA3DE1D23B67C00593AE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0DBA3E11D23B67C00593AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0DBA3E31D23B67C00593AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0DBA3E61D23B67C00593AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0DBA3E81D23B67C00593AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DBA3ED1D23B67C00593AE3 /* MVVMTsetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMTsetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DBA3F11D23B67C00593AE3 /* MVVMTsetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTsetTests.m; sourceTree = "<group>"; };
+		C0DBA3F31D23B67C00593AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DBA3F81D23B67C00593AE3 /* MVVMTsetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMTsetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DBA3FC1D23B67C00593AE3 /* MVVMTsetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTsetUITests.m; sourceTree = "<group>"; };
+		C0DBA3FE1D23B67C00593AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DBA4101D23BB8600593AE3 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		C0DBA4111D23BB8600593AE3 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		C0DBA4181D23C03F00593AE3 /* OBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBHomeViewController.h; sourceTree = "<group>"; };
+		C0DBA4191D23C03F00593AE3 /* OBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBHomeViewController.m; sourceTree = "<group>"; };
+		C0DBA41C1D23C08700593AE3 /* 89382494.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 89382494.jpg; sourceTree = "<group>"; };
+		C0DBA41D1D23C08700593AE3 /* 侧田-命硬.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "侧田-命硬.mp3"; sourceTree = "<group>"; };
+		C0DBA41E1D23C08700593AE3 /* 陈奕迅-十年.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-十年.mp3"; sourceTree = "<group>"; };
+		C0DBA41F1D23C08700593AE3 /* 邓丽君-我只在乎你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "邓丽君-我只在乎你.mp3"; sourceTree = "<group>"; };
+		C0DBA4201D23C08700593AE3 /* 十年.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "十年.lrc"; sourceTree = "<group>"; };
+		C0DBA4211D23C08700593AE3 /* 谭咏麟-讲不出再见.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "谭咏麟-讲不出再见.mp3"; sourceTree = "<group>"; };
+		C0DBA4221D23C08700593AE3 /* 为情所伤.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "为情所伤.lrc"; sourceTree = "<group>"; };
+		C0DBA4231D23C08700593AE3 /* 庄心妍-为情所伤.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "庄心妍-为情所伤.mp3"; sourceTree = "<group>"; };
+		C0DBA4241D23C08700593AE3 /* Sara（泰语）-Even If Knew That Must Meet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sara（泰语）-Even If Knew That Must Meet.mp3"; sourceTree = "<group>"; };
+		C0DBA4251D23C08700593AE3 /* song_400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = song_400.png; sourceTree = "<group>"; };
+		C0DBA4261D23C08700593AE3 /* songsInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songsInfo.plist; sourceTree = "<group>"; };
+		CA480E28D85F1BBD963AD012 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0DBA3D11D23B67C00593AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6E03DFA724EC001223C082 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DBA3EA1D23B67C00593AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DBA3F51D23B67C00593AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45BE64B40A6819C3081F1D24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58CB678B769CDD9AA5A774A6 /* Pods.debug.xcconfig */,
+				6B2B91535B82E8A4A29BE911 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78AC56616B9449C7D232BF48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA480E28D85F1BBD963AD012 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DBA3CB1D23B67C00593AE3 = {
+			isa = PBXGroup;
+			children = (
+				C0DBA3D61D23B67C00593AE3 /* MVVMTset */,
+				C0DBA3F01D23B67C00593AE3 /* MVVMTsetTests */,
+				C0DBA3FB1D23B67C00593AE3 /* MVVMTsetUITests */,
+				C0DBA3D51D23B67C00593AE3 /* Products */,
+				45BE64B40A6819C3081F1D24 /* Pods */,
+				78AC56616B9449C7D232BF48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0DBA3D51D23B67C00593AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA3D41D23B67C00593AE3 /* MVVMTset.app */,
+				C0DBA3ED1D23B67C00593AE3 /* MVVMTsetTests.xctest */,
+				C0DBA3F81D23B67C00593AE3 /* MVVMTsetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0DBA3D61D23B67C00593AE3 /* MVVMTset */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA40A1D23B89C00593AE3 /* Config */,
+				C0DBA40B1D23B89C00593AE3 /* Home */,
+				C0DBA40C1D23B89C00593AE3 /* Request */,
+				C0DBA40D1D23B89C00593AE3 /* Sources */,
+				C0DBA40E1D23B89C00593AE3 /* Tool */,
+				C0DBA40F1D23B89C00593AE3 /* Vender */,
+				C0DBA3DA1D23B67C00593AE3 /* AppDelegate.h */,
+				C0DBA3DB1D23B67C00593AE3 /* AppDelegate.m */,
+				C0DBA3DD1D23B67C00593AE3 /* ViewController.h */,
+				C0DBA3DE1D23B67C00593AE3 /* ViewController.m */,
+				C0DBA3E01D23B67C00593AE3 /* Main.storyboard */,
+				C0DBA3E31D23B67C00593AE3 /* Assets.xcassets */,
+				C0DBA3E51D23B67C00593AE3 /* LaunchScreen.storyboard */,
+				C0DBA3E81D23B67C00593AE3 /* Info.plist */,
+				C0DBA3D71D23B67C00593AE3 /* Supporting Files */,
+			);
+			path = MVVMTset;
+			sourceTree = "<group>";
+		};
+		C0DBA3D71D23B67C00593AE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA3D81D23B67C00593AE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0DBA3F01D23B67C00593AE3 /* MVVMTsetTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA3F11D23B67C00593AE3 /* MVVMTsetTests.m */,
+				C0DBA3F31D23B67C00593AE3 /* Info.plist */,
+			);
+			path = MVVMTsetTests;
+			sourceTree = "<group>";
+		};
+		C0DBA3FB1D23B67C00593AE3 /* MVVMTsetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA3FC1D23B67C00593AE3 /* MVVMTsetUITests.m */,
+				C0DBA3FE1D23B67C00593AE3 /* Info.plist */,
+			);
+			path = MVVMTsetUITests;
+			sourceTree = "<group>";
+		};
+		C0DBA40A1D23B89C00593AE3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C0DBA40B1D23B89C00593AE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA4161D23C03F00593AE3 /* Model */,
+				C0DBA4171D23C03F00593AE3 /* ViewController */,
+				C0DBA41A1D23C03F00593AE3 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C0DBA40C1D23B89C00593AE3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		C0DBA40D1D23B89C00593AE3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA41C1D23C08700593AE3 /* 89382494.jpg */,
+				C0DBA41D1D23C08700593AE3 /* 侧田-命硬.mp3 */,
+				C0DBA41E1D23C08700593AE3 /* 陈奕迅-十年.mp3 */,
+				C0DBA41F1D23C08700593AE3 /* 邓丽君-我只在乎你.mp3 */,
+				C0DBA4201D23C08700593AE3 /* 十年.lrc */,
+				C0DBA4211D23C08700593AE3 /* 谭咏麟-讲不出再见.mp3 */,
+				C0DBA4221D23C08700593AE3 /* 为情所伤.lrc */,
+				C0DBA4231D23C08700593AE3 /* 庄心妍-为情所伤.mp3 */,
+				C0DBA4241D23C08700593AE3 /* Sara（泰语）-Even If Knew That Must Meet.mp3 */,
+				C0DBA4251D23C08700593AE3 /* song_400.png */,
+				C0DBA4261D23C08700593AE3 /* songsInfo.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C0DBA40E1D23B89C00593AE3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA4101D23BB8600593AE3 /* UIViewExt.h */,
+				C0DBA4111D23BB8600593AE3 /* UIViewExt.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C0DBA40F1D23B89C00593AE3 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		C0DBA4161D23C03F00593AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0DBA4171D23C03F00593AE3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA4181D23C03F00593AE3 /* OBHomeViewController.h */,
+				C0DBA4191D23C03F00593AE3 /* OBHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0DBA41A1D23C03F00593AE3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0DBA3D31D23B67C00593AE3 /* MVVMTset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DBA4011D23B67C00593AE3 /* Build configuration list for PBXNativeTarget "MVVMTset" */;
+			buildPhases = (
+				7A4864D089D6331CAEA3C2D4 /* Check Pods Manifest.lock */,
+				C0DBA3D01D23B67C00593AE3 /* Sources */,
+				C0DBA3D11D23B67C00593AE3 /* Frameworks */,
+				C0DBA3D21D23B67C00593AE3 /* Resources */,
+				A39F8FC1B656A4A2E5864953 /* Embed Pods Frameworks */,
+				003BEFF2DB8157FE95F91BEF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVMTset;
+			productName = MVVMTset;
+			productReference = C0DBA3D41D23B67C00593AE3 /* MVVMTset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0DBA3EC1D23B67C00593AE3 /* MVVMTsetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DBA4041D23B67C00593AE3 /* Build configuration list for PBXNativeTarget "MVVMTsetTests" */;
+			buildPhases = (
+				C0DBA3E91D23B67C00593AE3 /* Sources */,
+				C0DBA3EA1D23B67C00593AE3 /* Frameworks */,
+				C0DBA3EB1D23B67C00593AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0DBA3EF1D23B67C00593AE3 /* PBXTargetDependency */,
+			);
+			name = MVVMTsetTests;
+			productName = MVVMTsetTests;
+			productReference = C0DBA3ED1D23B67C00593AE3 /* MVVMTsetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0DBA3F71D23B67C00593AE3 /* MVVMTsetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DBA4071D23B67C00593AE3 /* Build configuration list for PBXNativeTarget "MVVMTsetUITests" */;
+			buildPhases = (
+				C0DBA3F41D23B67C00593AE3 /* Sources */,
+				C0DBA3F51D23B67C00593AE3 /* Frameworks */,
+				C0DBA3F61D23B67C00593AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0DBA3FA1D23B67C00593AE3 /* PBXTargetDependency */,
+			);
+			name = MVVMTsetUITests;
+			productName = MVVMTsetUITests;
+			productReference = C0DBA3F81D23B67C00593AE3 /* MVVMTsetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0DBA3CC1D23B67C00593AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OB;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "___shangyait___";
+				TargetAttributes = {
+					C0DBA3D31D23B67C00593AE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C0DBA3EC1D23B67C00593AE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C0DBA3D31D23B67C00593AE3;
+					};
+					C0DBA3F71D23B67C00593AE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C0DBA3D31D23B67C00593AE3;
+					};
+				};
+			};
+			buildConfigurationList = C0DBA3CF1D23B67C00593AE3 /* Build configuration list for PBXProject "MVVMTset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0DBA3CB1D23B67C00593AE3;
+			productRefGroup = C0DBA3D51D23B67C00593AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0DBA3D31D23B67C00593AE3 /* MVVMTset */,
+				C0DBA3EC1D23B67C00593AE3 /* MVVMTsetTests */,
+				C0DBA3F71D23B67C00593AE3 /* MVVMTsetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0DBA3D21D23B67C00593AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DBA42A1D23C08700593AE3 /* 邓丽君-我只在乎你.mp3 in Resources */,
+				C0DBA4291D23C08700593AE3 /* 陈奕迅-十年.mp3 in Resources */,
+				C0DBA42E1D23C08700593AE3 /* 庄心妍-为情所伤.mp3 in Resources */,
+				C0DBA42F1D23C08700593AE3 /* Sara（泰语）-Even If Knew That Must Meet.mp3 in Resources */,
+				C0DBA4301D23C08700593AE3 /* song_400.png in Resources */,
+				C0DBA42D1D23C08700593AE3 /* 为情所伤.lrc in Resources */,
+				C0DBA42B1D23C08700593AE3 /* 十年.lrc in Resources */,
+				C0DBA4281D23C08700593AE3 /* 侧田-命硬.mp3 in Resources */,
+				C0DBA42C1D23C08700593AE3 /* 谭咏麟-讲不出再见.mp3 in Resources */,
+				C0DBA3E71D23B67C00593AE3 /* LaunchScreen.storyboard in Resources */,
+				C0DBA3E41D23B67C00593AE3 /* Assets.xcassets in Resources */,
+				C0DBA4311D23C08700593AE3 /* songsInfo.plist in Resources */,
+				C0DBA4271D23C08700593AE3 /* 89382494.jpg in Resources */,
+				C0DBA3E21D23B67C00593AE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DBA3EB1D23B67C00593AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DBA3F61D23B67C00593AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003BEFF2DB8157FE95F91BEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4864D089D6331CAEA3C2D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A39F8FC1B656A4A2E5864953 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0DBA3D01D23B67C00593AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DBA4121D23BB8600593AE3 /* UIViewExt.m in Sources */,
+				C0DBA3DF1D23B67C00593AE3 /* ViewController.m in Sources */,
+				C0DBA3DC1D23B67C00593AE3 /* AppDelegate.m in Sources */,
+				C0DBA41B1D23C03F00593AE3 /* OBHomeViewController.m in Sources */,
+				C0DBA3D91D23B67C00593AE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DBA3E91D23B67C00593AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DBA3F21D23B67C00593AE3 /* MVVMTsetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DBA3F41D23B67C00593AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DBA3FD1D23B67C00593AE3 /* MVVMTsetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0DBA3EF1D23B67C00593AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0DBA3D31D23B67C00593AE3 /* MVVMTset */;
+			targetProxy = C0DBA3EE1D23B67C00593AE3 /* PBXContainerItemProxy */;
+		};
+		C0DBA3FA1D23B67C00593AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0DBA3D31D23B67C00593AE3 /* MVVMTset */;
+			targetProxy = C0DBA3F91D23B67C00593AE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0DBA3E01D23B67C00593AE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0DBA3E11D23B67C00593AE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0DBA3E51D23B67C00593AE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0DBA3E61D23B67C00593AE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0DBA3FF1D23B67C00593AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0DBA4001D23B67C00593AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0DBA4021D23B67C00593AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CB678B769CDD9AA5A774A6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVVMTset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shangyait.MVVMTset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0DBA4031D23B67C00593AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2B91535B82E8A4A29BE911 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVVMTset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shangyait.MVVMTset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0DBA4051D23B67C00593AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MVVMTsetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shangyait.MVVMTsetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTset.app/MVVMTset";
+			};
+			name = Debug;
+		};
+		C0DBA4061D23B67C00593AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MVVMTsetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shangyait.MVVMTsetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMTset.app/MVVMTset";
+			};
+			name = Release;
+		};
+		C0DBA4081D23B67C00593AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MVVMTsetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shangyait.MVVMTsetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MVVMTset;
+			};
+			name = Debug;
+		};
+		C0DBA4091D23B67C00593AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MVVMTsetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shangyait.MVVMTsetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MVVMTset;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0DBA3CF1D23B67C00593AE3 /* Build configuration list for PBXProject "MVVMTset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DBA3FF1D23B67C00593AE3 /* Debug */,
+				C0DBA4001D23B67C00593AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DBA4011D23B67C00593AE3 /* Build configuration list for PBXNativeTarget "MVVMTset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DBA4021D23B67C00593AE3 /* Debug */,
+				C0DBA4031D23B67C00593AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DBA4041D23B67C00593AE3 /* Build configuration list for PBXNativeTarget "MVVMTsetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DBA4051D23B67C00593AE3 /* Debug */,
+				C0DBA4061D23B67C00593AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DBA4071D23B67C00593AE3 /* Build configuration list for PBXNativeTarget "MVVMTsetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DBA4081D23B67C00593AE3 /* Debug */,
+				C0DBA4091D23B67C00593AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0DBA3CC1D23B67C00593AE3 /* Project object */;
+}
